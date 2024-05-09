@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/mini.css">
+    <link rel="stylesheet" href="./style/show-hint.css">
+</head>
+<body>
+    <div class="header">
+        <div class="status">
+          <h2>domain: <span id="domain">No Domains</span></h2>
+          <h3>status: <span id="status">inactive</span></h3>
+        </div>
+        <div>
+          <button>All Rules</button>
+          <button>Account</button>
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="css-code-block">
+            <label>Custom CSS:</label>
+            <div id="customCSS"></div>
+        </div>
+
+        <div class="js-code-block">
+            <label>Custom JavaScript:</label>
+            <div id="customJS"></div>
+        </div>
+    </div>
+
+    <div class="footer" >
+     <div class="footer-btn">
+          <button id="save">Save</button>
+          <button id="close">Close</button>
+     </div>
+     <span>Dev by nazmul</span>
+
+    </div>
+
+    <!-- CodeMirror JavaScript and Addons -->
+
+    <script src="./codemirror/mini.js"></script>
+    <script src="./codemirror/closebrackets.js"></script>
+    <script src="./codemirror/show-hint.js"></script>
+    <script src="./codemirror/css-hint.js"></script>
+    <script src="./codemirror/javascript-hint.js"></script>
+    <script src="./codemirror/brace-fold.js"></script>
+    <script src="./codemirror/comment.js"></script>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
